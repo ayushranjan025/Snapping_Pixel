@@ -1,0 +1,133 @@
+/* 1425px */
+@media(max-width:89rem){
+
+    .search-result img{
+        height: 80%;
+        width: 80%;
+        align-items: center;
+    }
+    
+}
+
+/* 1088px */
+@media(max-width: 68rem){
+    html{
+        font-size: 58%;
+    }
+
+    .nav{
+        gap: 3rem;
+    }
+
+    h2{
+        font-size: 3.6rem;
+    }
+
+    .nav button{
+        font-size: 2rem;
+    }
+    .search-result img{
+        height: 100%;
+        width: 100%;
+    }
+    .search-result{
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+}
+
+
+/* 864px */
+@media(max-width: 54rem){
+    html{
+        font-size: 55%;
+    }
+    .nav{
+        gap: 1.8rem;
+    }
+    .main-body{
+        font-size: 6rem;
+    }
+    .header{
+        padding: 0 3.2rem;
+    }
+    h2{
+        font-size: 3.2rem;
+    }
+
+    .nav button{
+        font-size: 1.8rem;
+    }
+    .search-result{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+}
+
+/* 672 px */
+@media(max-width: 42rem){
+    html{
+        font-size: 50%;
+    }
+    #cars, #wildlife{
+        display: none;
+    }
+    
+    .header{
+        padding: 0 3rem;
+    }
+    .nav{
+        gap: 1.4rem;
+    }
+    .nav button{
+        font-weight: 700;
+    }
+    .search-result{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+/* 464 px */
+@media(max-width: 29rem){
+    html{
+        font-size: 45%;
+    }
+    #nature, #bikes, #birds{
+        display: none;
+    }
+    h2{
+        text-align: center;
+        font-size: 3.6rem;
+    }
+    .header h2{
+        /* padding-top: 4rem; */
+        font-size: 6rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .header{
+        background: none;
+        padding: 6rem 0;
+    }
+    .nav{
+        gap: 1.4rem;
+    }
+    .nav button{
+        font-weight: 700;
+    }
+    #input{
+        width: 35rem;
+        height: 3rem;
+    }
+    .search-btn{
+        padding: 1rem 5rem;
+    }
+    .search-result{
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+}
